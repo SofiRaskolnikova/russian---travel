@@ -1,0 +1,18 @@
+.place__image {
+  grid-area: image;
+  width: 100%;
+  min-height: 460px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+    min-height: 440px;
+  }
+}
+    
+@media (max-width: 768px) {
+  .place__image {
+    min-height: 340px;
+  }
+}

@@ -1,0 +1,17 @@
+.cover {
+  padding: 0 48px;
+}
+.cover:hover {
+  opacity: .8;
+}
+
+.cover:not(:last-child) {
+  margin-bottom: 92px;
+}
+
+@media (max-width: 1024px) {
+  .cover{
+    padding: 0;
+    margin-bottom: 79px;
+  }
+}
