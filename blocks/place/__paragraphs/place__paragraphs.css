@@ -2,5 +2,20 @@
   grid-area: place__text;
   display: flex;
   flex-direction: column;
-  row-gap: 27px;
+  row-gap: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .place__paragraphs{
+    row-gap: 27px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .place__paragraphs{
+    padding: 0 16px;
+    row-gap: 25px;
+  }
 }

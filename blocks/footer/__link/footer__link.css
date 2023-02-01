@@ -3,10 +3,11 @@
   font-size: 16px;
   font-weight: 400;
   color: #fff;
-  text-decoration: none;  
+  text-decoration: none;
+  line-height: 1;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .footer__link {
     font-size: 24px;
   }

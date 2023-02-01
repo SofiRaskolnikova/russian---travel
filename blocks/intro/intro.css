@@ -3,29 +3,36 @@
   flex-direction: column;
   align-items:flex-start;
   padding: 0px 148px;
+  margin: 0;
 }
 
 .intro:not(:last-child) {
   margin-bottom: 92px; 
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .intro {
-    padding: 0 42px;
-    margin-bottom: 94px;
+    padding: 0 48px;
+  }
+
+  .intro:not(:last-child) {
+    margin-bottom: 94px; 
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .intro {
     padding: 0 24px;
     margin-bottom: 88px;
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .intro {
     padding: 0 16px;
-    margin-bottom: 64px;
+  }
+
+  .intro:not(:last-child) {
+    margin-bottom: 66px; 
   }
 }

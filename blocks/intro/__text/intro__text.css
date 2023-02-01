@@ -5,11 +5,33 @@
   line-height: 1.6;
   color: #fff;
   width: 70%; 
+  margin-top: 0;
+  margin-bottom: 33px;
+  padding: 0;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .intro__text {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro__text {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
   .intro__text {
     font-size: 16px;
     width: 100%;
   }
+
+  .intro__text:not(:last-child) {
+    margin-bottom: 34px; 
+  }
 }
+
+
+ 
