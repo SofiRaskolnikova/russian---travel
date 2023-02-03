@@ -6,7 +6,7 @@
 }
 
 .photo-grid:not(:last-child) {
-  margin-bottom: 80px; 
+  margin-bottom: 92px; 
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -16,7 +16,7 @@
   }
 
   .photo-grid:not(:last-child) {
-    margin-bottom: 80px; 
+    margin-bottom: 85px; 
   }
 }
 

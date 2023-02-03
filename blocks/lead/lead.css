@@ -9,7 +9,8 @@
   margin-bottom: 92px;
 }
 
-@media (max-width: 1024px) {
+
+@media (min-width: 1023px) and (max-width: 1279px) {
   .lead {
     padding: 0 48px;
   }
@@ -35,6 +36,6 @@
   }
 
   .lead:not(:last-child) {
-    margin-bottom: 60px;
+    margin-bottom: 64px;
   }
 }

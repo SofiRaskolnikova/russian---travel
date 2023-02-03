@@ -3,6 +3,9 @@
   color: #fff;
   font-size: 18px;
   font-weight: 400;
+  margin: 0; 
+  padding: 0;
+  line-height: 22px;
 }
 
 .place__link:hover {

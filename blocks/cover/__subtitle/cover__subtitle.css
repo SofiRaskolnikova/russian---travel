@@ -4,22 +4,24 @@
   font-weight: 400;
   color: #fff;
   z-index: 1;
-  max-width: 40%;
   margin: 0;
   padding: 0;
   text-align: center;
-  line-height: 1.2;
+  line-height: 22px;
+  max-width: 360px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+
+@media (min-width: 410px) and (max-width: 767px){
   .cover__subtitle{
-    max-width: 60%;
+    font-size: 14px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 409px) {
   .cover__subtitle {
     font-size: 14px;
-    max-width: 90%;
+    max-width: 288px;
+    line-height: 16px;
   }
 }

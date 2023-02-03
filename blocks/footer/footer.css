@@ -1,21 +1,18 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-right: 42px;
-  padding-bottom: 24px;
-  padding-left: 42px;
+  padding: 0 42px 24px 42px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer {
-    padding: 0 24px;
+    padding: 0 24px 24px 24px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .footer {
     flex-direction: column;
-    padding: 0 16px;
+    padding: 0 16px 24px 16px;
   }
 }

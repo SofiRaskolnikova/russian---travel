@@ -2,9 +2,6 @@
   padding: 0 48px;
   margin: 0;
 }
-.cover:hover {
-  opacity: .8;
-}
 
 .cover:not(:last-child) {
   margin-bottom: 92px;
@@ -14,22 +11,25 @@
   .cover{
     padding: 0;
   }
-
   .cover:not(:last-child) {
-    margin-bottom: 79px;
+    margin-bottom: 94px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-
+  .cover{ 
+    padding: 0;
+  }
   .cover:not(:last-child) {
-    margin-bottom: 93px;
+    margin-bottom: 88px; 
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-
+  .cover{
+    padding: 0;
+  }
   .cover:not(:last-child) {
-    margin-bottom: 58px;
+    margin-bottom: 64px;
   }
 }
