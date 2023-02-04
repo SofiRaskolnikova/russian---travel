@@ -4,14 +4,24 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  margin-bottom: 60px;
+  border: 1px solid red;
 }
 
-.lead__container:not(:last-child) {
-  margin-bottom: 3px;
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .lead__container {
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__container {
+    margin-bottom: 56px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .lead__container:not(:last-child) {
-    margin-bottom: 3px; 
+  .lead__container{
+    margin-bottom: 40px;
   }
 }

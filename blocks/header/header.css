@@ -1,5 +1,4 @@
 .header {
-  min-height: 52px;
   display: flex;
   justify-content: space-between;
   padding-top: 28px;
@@ -38,6 +37,6 @@
   }
 
   .header:not(:last-child){
-    margin-bottom: 35px;
+    margin-bottom: 48px;
   }
 }

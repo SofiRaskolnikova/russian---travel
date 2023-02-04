@@ -5,6 +5,12 @@
   color: #fff;
   text-decoration: none;
   line-height: 1;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

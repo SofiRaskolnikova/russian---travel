@@ -36,6 +36,6 @@
   }
 
   .places:not(:last-child) {
-    margin-bottom: 78px;
+    margin-bottom: 72px;
   }
 }

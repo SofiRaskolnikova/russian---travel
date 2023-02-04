@@ -16,6 +16,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .place__paragraphs{
     padding: 0 16px;
-    row-gap: 25px;
+    row-gap: 26px;
   }
 }
